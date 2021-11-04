@@ -1,0 +1,33 @@
+#main{
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: Arial, serif;
+}
+
+nav{
+    flex-direction: row;
+    text-align: center;
+    text-decoration: blue underline;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    gap: 10px;
+}
+
+li{
+    background-color: lightgray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.nav-links{
+    /*display: flex;*/
+    flex-direction: column;
+    list-style-type: none;
+}
