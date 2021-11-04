@@ -87,7 +87,6 @@ footer {
         align-items: flex-end;
     }
     .nav-links{
-        /*display: flex;*/
         flex-direction: row;
         justify-content: flex-end;
         list-style-type: none;
