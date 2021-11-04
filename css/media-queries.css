@@ -63,6 +63,10 @@ footer {
     justify-content: space-between;
 }
 
+#social-media-links a>i {
+    color: lightgray;
+}
+
 @media screen and (min-width:992px) {
     .hidden-on-desktop {
         display: none;
@@ -107,6 +111,8 @@ footer {
     section>p {
         margin: 10px;
     }
+
+
     /*footer {*/
     /*    position: absolute;*/
     /*}*/
