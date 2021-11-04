@@ -55,3 +55,29 @@ li{
 
 
 }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-section {
+    font-style: italic;
+}
+
+/*footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#social-media-links {
+    text-decoration: lightgrey;
+    diplay: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}*/
