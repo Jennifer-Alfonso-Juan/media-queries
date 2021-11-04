@@ -1,3 +1,9 @@
+
+* MOBILE FIRST */
+* {
+    box-sizing: border-box;
+}
+
 #main{
 
 }
@@ -6,6 +12,13 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     font-family: Arial, serif;
+}
+
+.alert-info {
+    background-color: #c2ffff;
+    text-align: center;
+    border: 1px solid black;
+    padding: 2em;
 }
 
 nav{
@@ -30,4 +43,15 @@ li{
     /*display: flex;*/
     flex-direction: column;
     list-style-type: none;
+}
+
+@media screen and (min-width:992px) {
+    .hidden-on-desktop {
+        display: none;
+    }
+    body {
+    ;
+    }
+
+
 }
